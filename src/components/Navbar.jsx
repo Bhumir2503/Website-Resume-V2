@@ -6,7 +6,7 @@ import React from 'react';
 function Navbar()  {
     return(
       <nav className="Navbar">
-        <a href='#home' className="Navbar-name">
+        <a href='.About-me' className="Navbar-name">
           Bhumir Patel
         </a>
       </nav>

@@ -10,7 +10,7 @@ function Education({ educationData }) {
             <h2>{edu.school}</h2>
             <h4>{edu.degree} in {edu.field}</h4>
             <h5>{edu.start} - {edu.end}</h5>
-            <h5>Relevant Coursework </h5>
+            <h6>Relevant Cources</h6>
             <ul>
               {edu.accomplishments.map((acc, i) => <li key={i}>{acc}</li>)}
             </ul>

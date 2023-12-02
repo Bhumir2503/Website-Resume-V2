@@ -16,15 +16,6 @@ body {
   margin-right: auto;
 }
 
-ul{
-  list-style-type: none;
-  display: flex;
-  padding-left: 0px;
-}
-
-li{
-  padding: 0 20px;
-}
 
 
 .cursor {
@@ -47,7 +38,7 @@ li{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 80px;
+  padding: 20px 0px;
   position: fixed;
   width: 100%;
 }
@@ -60,6 +51,7 @@ li{
   font-weight: bold;
   letter-spacing: 1px;
   transition: all 0.3s ease 0s;
+  margin-left: 30px;
 }
 
 
@@ -133,13 +125,15 @@ strong{
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  margin: 4px 0px;
   cursor: pointer;
   border-radius: 25px;
   margin-top: 30px;
 }
 
 
+.About button:hover{
+  background-color: #000000;
+}
 
 
 
@@ -152,27 +146,148 @@ strong{
 
 
 
+
+.education-content ul{
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.education-content li{
+  padding: 0 20px;
+}
 
 .education-section{
-  background-color: 393E46;
   margin-top: 100px;
-  padding: 14px 16px;
+  margin-bottom: 100px;
+  background-color: 393E46;
+
   display: flex;
   justify-content: center;
 }
 
 
+.education{
+  margin-bottom: 100px;
+}
+
+
+
 .education-section h1{
-  color: #00ADB5;
+  color: #EEEEEE;
   display: block;
-  width: 600px;
+  width: 300px;
+  font-size: 48px;
+  margin: 0px 0px;
 }
 
 
 .education-side{
-  width: 600px;
+  width: 900px;
+  margin-left: 40px;
+}
 
+
+
+.education-side h2{
+  margin-bottom: 0px;
+  font-size: 32px;
+  margin-top: 0px;
 
 }
 
 
+.education-side h4{
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:#00ADB5
+}
+
+
+.education h5{
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:#EEEEEE;
+}
+
+
+.education h6{
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:#EEEEEE;
+}
+
+
+.education ul{
+  margin: 0px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.education li{
+  font-size: 18px;
+  margin-bottom: 7px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #393E46;
+  background-color: #DDD1C7;
+  padding: 7px 20px;
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+.skill-section{
+  display: flex;
+  justify-content: center;
+}
+
+
+.skill-section h1{
+  color: #EEEEEE;
+  display: block;
+  width: 300px;
+  font-size: 48px;
+  margin: 0px 0px;
+}
+
+
+.skill-side{
+  width: 900px;
+  margin-left: 40px;
+}
+
+.skill-col{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.skill-col ul{
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+
+.skill-col h2{
+  margin-top: 0px;
+  font-size: 32px;
+  margin-top: 0px;
+  color:#00ADB5
+}

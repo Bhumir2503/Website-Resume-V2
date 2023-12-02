@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Cursor from './components/Cursor';
 import Education from './components/Education';
 import About from './components/About';
+import Skill from './components/Skill';
 
 function App() {
 
@@ -46,7 +47,7 @@ function App() {
       field: 'Computer Science and Minors in Mathematics and Machine Learning',
       start: 'Jan 2023',
       end: 'May 2025',
-      accomplishments: ['Data Structures/Algorithms', 'Systems Programming']
+      accomplishments: ['Algorithms', 'Systems Programming', 'Linear Algebra', 'Differential Equations', 'Multivariable Calculus' ]
     },
   ];
 
@@ -77,6 +78,18 @@ function App() {
         <div className='education-side'>
           <Education educationData= {Pelli}/>
           <Education educationData= {UTK}/>
+        </div>
+      </div>
+      
+
+
+
+      <div className='skill-section'>
+        <div >
+          <h1>Skill</h1>
+        </div>
+        <div className='skill-side'>
+          <Skill />
         </div>
       </div>
       

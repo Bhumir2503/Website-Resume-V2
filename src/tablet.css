@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1280px){
+
+      .about-content{
+        width: 400px;
+      }      
+
+      .education-side{
+        width: 700px;
+        margin-left: 40px;
+      }
+
+      .skill-side{
+        width:75%;
+      }
+
+      .skill-section h1{
+        width: 25%;
+      }
+
+      .project-section{
+        display: block;
+      }
+
+      .project-section h1{
+        margin-left: 30px;
+      }
+
+      .project-side{
+        width: 95%;
+        margin-left: 50px
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px){
+      
+      .about-content{
+        display: none;
+      }      
+
+
+    .About h3{
+    text-align: center;
+    }
+
+    .About h4{
+    text-align: center;
+    }
+
+
+    .About p{
+    text-align: center;
+    }
+
+
+    .About a{
+    display: flex;
+    justify-content: center;
+    }
+
+
+    .education-section{
+      display: block;
+    }
+
+    .education-section h1{
+      margin-left: 30px
+    }
+
+
+    .education-side{
+      margin-top: 30px;
+      margin-left: 150px;
+      width: 75%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+  .skill-section{
+    display: block;
+  }
+
+  .skill-section h1{
+    margin-left: 30px;
+  }
+
+  .skill-side{
+    width: 90%
+
+  }
+
+  .project-side{
+    width: 90%;
+  }
+  .project{
+    margin-top:25px;
+    display: block;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px){
+  .skill-col{
+    display: block;
+    margin-left: 50px;
+  }
+
+  .skill-col h2{
+    margin-top: 50px;
+  }
+
+  .education-side{
+    margin-left: 50px;
+    width: 85%;
+  }
+
+  .project img{
+    width: 275px;
+  }
+
+}
+
+
+
+@media only screen and (max-height: 450px){
+  .About-jsx{
+    height: 450px;
+  }
+
+  .about-content{
+    height: 450px;
+  }
+
+}

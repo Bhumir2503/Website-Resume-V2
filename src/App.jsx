@@ -99,7 +99,7 @@ function App() {
           <About />
         </div>
         <div className='about-content'>
-          <img src="/web-design-layout.svg" alt="" />
+          <img src="images/web-design-layout.svg" alt="" />
         </div>
       </div>
       
@@ -135,11 +135,11 @@ function App() {
           <h1>Project</h1>
         </div>
         <div className='project-side'>
-          <Project projectData={Maze} link = "https://github.com/Bhumir2503/Maze-Gen-Solver" image = "/images/maze.png"/>
-          <Project projectData={Sudoku} link = "https://github.com/Bhumir2503/Sudoku" image = "/images/Sudoku.png"/>
-          <Project projectData={Resume1} link = "https://github.com/Bhumir2503/Website-Resume-React" image = "/images/website.png"/>
-          <Project projectData={Inventory} link = "https://github.com/Bhumir2503/Inventory-Manager" image = "/images/inventory.png"/>
-          <Project projectData={Resume2} link = "https://github.com/Bhumir2503/Website-Resume-V2" image = "/images/website2.png"/>
+          <Project projectData={Maze} link = "https://github.com/Bhumir2503/Maze-Gen-Solver" image = "images/maze.png"/>
+          <Project projectData={Sudoku} link = "https://github.com/Bhumir2503/Sudoku" image = "images/Sudoku.png"/>
+          <Project projectData={Resume1} link = "https://github.com/Bhumir2503/Website-Resume-React" image = "images/website.png"/>
+          <Project projectData={Inventory} link = "https://github.com/Bhumir2503/Inventory-Manager" image = "images/inventory.png"/>
+          <Project projectData={Resume2} link = "https://github.com/Bhumir2503/Website-Resume-V2" image = "images/website2.png"/>
         </div>
       </div>
 

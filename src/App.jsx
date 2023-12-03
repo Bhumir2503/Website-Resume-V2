@@ -5,6 +5,7 @@ import Cursor from './components/Cursor';
 import Education from './components/Education';
 import About from './components/About';
 import Skill from './components/Skill';
+import Project from './components/Project';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       let element = document.querySelector('.About-jsx');
       let position = element.getBoundingClientRect();
       // check whether About-jsx is out of viewport
-      if(position.top < window.innerHeight && position.bottom - 200>= 0) {
+      
+      if(position.top < window.innerHeight && position.bottom - 300 >= 0) {
         setIsNavbarVisible(false);
       } else {
         setIsNavbarVisible(true);
@@ -51,6 +53,40 @@ function App() {
     },
   ];
 
+  const Maze = [{
+    name: 'Maze Generator and Solver',
+    description: "Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
+    tech: ['Python', 'Pygame', 'C++', 'Linux', 'SDL', 'GIT & Github'],
+    link: 'https://github.com/Bhumir2503/Maze-Gen-Solver'
+  }];
+
+  const Sudoku = [{
+    name: 'Sudoku Generator and Solver',
+    description: "Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
+    tech: ['Python', 'Pygame', 'C++', 'Linux', 'SDL', 'GIT & Github'],
+    link: 'https://github.com/Bhumir2503/Maze-Gen-Solver'
+  }];
+  
+  const Resume1 = [{
+    name: 'Personal Website v1',
+    description: "Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
+    tech: ['Python', 'Pygame', 'C++', 'Linux', 'SDL', 'GIT & Github'],
+    link: 'https://github.com/Bhumir2503/Maze-Gen-Solver'
+  }];
+  
+  const Inventory = [{
+    name: 'Inventory Management System',
+    description: "Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
+    tech: ['Python', 'Pygame', 'C++', 'Linux', 'SDL', 'GIT & Github'],
+    link: 'https://github.com/Bhumir2503/Maze-Gen-Solver'
+  }];
+  
+  const Resume2 = [{
+    name: 'Personal Website v2',
+    description: "Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
+    tech: ['Python', 'Pygame', 'C++', 'Linux', 'SDL', 'GIT & Github'],
+    link: 'https://github.com/Bhumir2503/Maze-Gen-Solver'
+  }];
 
 
 
@@ -93,6 +129,21 @@ function App() {
         </div>
       </div>
       
+
+      <div className='project-section'>
+        <div >
+          <h1>Project</h1>
+        </div>
+        <div className='project-side'>
+          <Project projectData={Maze} link = "https://github.com/Bhumir2503/Maze-Gen-Solver"/>
+          <Project projectData={Sudoku} link = "https://github.com/Bhumir2503/Maze-Gen-Solver"/>
+          <Project projectData={Resume1} link = "https://github.com/Bhumir2503/Maze-Gen-Solver"/>
+          <Project projectData={Inventory} link = "https://github.com/Bhumir2503/Maze-Gen-Solver"/>
+          <Project projectData={Resume2} link = "https://github.com/Bhumir2503/Maze-Gen-Solver"/>
+        </div>
+      </div>
+
+
     </>
   )
 }

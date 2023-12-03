@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Project({ projectData, link }) {
+function Project({ projectData, link , image}) {
   return (
     <a target='_blank' href = {link}>
       <div className='project'>
+        <img src={image} alt="" />
         {projectData.map((project, index) => (
           <div key={index} className='project-content'>
             <h2>{project.name}</h2>

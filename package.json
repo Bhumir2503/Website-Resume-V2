@@ -2,7 +2,7 @@
   "name": "website-resume-v2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bhumir2503.github.io/website-resume-v2/,
+  "homepage": "https://bhumir2503.github.io/website-resume-v2/",
   "type": "module",
   "scripts": {
     "dev": "vite",
